@@ -340,7 +340,7 @@ def test_get_feed_posts_urns_contains_no_duplicated(linkedin):
 
 
 def test_get_post_reactions(linkedin):
-    results = linkedin.get_spoast_reactions("urn:li:activity:7234094294368665600")
+    results = linkedin.get_post_reactions("urn:li:activity:7234094294368665600")
     assert results
 
 
